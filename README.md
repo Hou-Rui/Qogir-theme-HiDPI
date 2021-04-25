@@ -1,3 +1,5 @@
+This is a modified version of the original Qogir theme that supports HiDPI for xfwm4 window manager theme.
+
 ## Qogir Gtk Theme
 
 Qogir is a flat Design theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Cinnamon Pantheon, XFCE, Mate, etc.
