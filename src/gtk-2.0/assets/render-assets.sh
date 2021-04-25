@@ -22,7 +22,8 @@ for theme in '' '-manjaro' '-ubuntu'; do
         echo Rendering $ASSETS_DIR/$i.png
         $INKSCAPE --export-id=$i \
                   --export-id-only \
-                  --export-png=$ASSETS_DIR/$i.png $SRC_FILE >/dev/null \
+                  --export-filename=$ASSETS_DIR/$i.png $SRC_FILE >/dev/null \
+                  --export-dpi=192 \
         && $OPTIPNG -o7 --quiet $ASSETS_DIR/$i.png
     fi
     done
